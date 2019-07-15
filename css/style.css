@@ -1,0 +1,40 @@
+#navbar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+    background-color: black;
+    color: white;
+}
+
+#navbar .logo {
+    font-size: 1.8rem;
+    padding-left: 19rem;
+}
+
+#navbar ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding-right: 19rem;
+}
+
+#navbar ul li a {
+    font-size: 1.2rem;
+    padding: 2rem;
+    color: white;
+    text-decoration: none;
+}
+
+#navbar li:first-child a {
+    background-color: silver;
+    color: orange;
+}
+
+#navbar ul li a:hover {
+    background-color: silver;
+    color: orange;
+}
