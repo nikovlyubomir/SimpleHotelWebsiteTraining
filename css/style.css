@@ -1,3 +1,9 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
+
 #navbar {
     position: fixed;
     top: 0;
@@ -107,7 +113,44 @@
 }
 
 #history .items .image {
-    background: url('../img/photo-1.jpg') no-repeat center center/cover;
+    background: #333 url('../img/photo-1.jpg') no-repeat center center/cover;
+    height: 60vh;
+}
+
+#history .items .container {
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+#history .items .container {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 0 3rem;
+}
+
+#history .items .container p {
+    font-size: 1.6rem;
+    color: white;
+    margin-top: 0px;
+}
+
+#history .items .container h1 {
+    font-size: 2.5rem;
+    color: white;
+}
+
+#history .items .container ul li a {
+    font-size: 1.5rem;
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    padding: 1.2rem 1.2rem;
 }
 
 
