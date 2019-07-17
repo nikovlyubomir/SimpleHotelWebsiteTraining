@@ -33,7 +33,7 @@
     text-decoration: none;
 }
 
-#navbar .container li:first-child a {
+.aboutH {
     background-color: silver;
     color: orange;
 }
@@ -55,12 +55,10 @@
     flex: 1;
 }
 
-.image {
-    background-image: url('../img/photo2.jpg');
-    height: 50vh;
-    padding-right: 1rem;
-    border-radius: 20%;
-    justify-content: left;
+#about .items .image img {
+    width: 450px;
+    border-radius: 50%;
+    margin-top: 1rem;
 }
 
 .text {
@@ -72,6 +70,7 @@
     padding-left: 19rem;
     padding-right: 6rem;
     padding-top: 1rem;
+    margin-bottom: 6rem;
 }
 
 .text h1 {
@@ -93,4 +92,52 @@
 #guests .containerG {
     background-image: url('../img/test-bg.jpg');
     height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#guests .containerG .textGuest {
+    font-size: 3rem;
+    color: white;
+}
+
+#guests .containerG .guest1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    color: white;
+    background: orange;
+    margin: 1rem 18rem;
+    padding: 1.5rem 5rem;
+    border-radius: 10px;
+}
+
+#guests .containerG .guest1 .img img {
+    width: 100px;
+    border-radius: 50px;
+    margin-right: 1rem;
+}
+
+#guests .containerG .guest1 .img1 img {
+    width: 100px;
+    margin-right: 1rem;
+    border-radius: 50px;
+}
+
+#main-footer {
+    position: relative;
+    height: 12vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+#main-footer .container p {
+    font-size: 1.2rem;
 }
