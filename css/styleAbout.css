@@ -42,3 +42,55 @@
     background-color: silver;
     color: orange;
 }
+
+
+/*Section About*/
+
+#about .items {
+    background-color: #333;
+    display: flex;
+}
+
+#about .items div {
+    flex: 1;
+}
+
+.image {
+    background-image: url('../img/photo2.jpg');
+    height: 50vh;
+    padding-right: 1rem;
+    border-radius: 20%;
+    justify-content: left;
+}
+
+.text {
+    background-color: #333;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding-left: 19rem;
+    padding-right: 6rem;
+    padding-top: 1rem;
+}
+
+.text h1 {
+    font-size: 3.5rem;
+}
+
+.text p {
+    padding-top: 4rem;
+    font-size: 1.3rem;
+}
+
+
+/*Utility class*/
+
+.text-primary {
+    color: orange;
+}
+
+#guests .containerG {
+    background-image: url('../img/test-bg.jpg');
+    height: 70vh;
+}
