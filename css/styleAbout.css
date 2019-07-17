@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#navbar .container {
+    height: 5.2rem;
+    align-items: center;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+#navbar .logo {
+    font-size: 1.8rem;
+    padding-left: 19rem;
+}
+
+#navbar .container ul {
+    display: flex;
+    margin: 20px;
+    align-items: center;
+    list-style: none;
+    padding-right: 19rem;
+}
+
+#navbar .container ul a {
+    font-size: 1.2rem;
+    padding: 2rem;
+    color: white;
+    text-decoration: none;
+}
+
+#navbar .container li:first-child a {
+    background-color: silver;
+    color: orange;
+}
+
+#navbar .container ul li a:hover {
+    background-color: silver;
+    color: orange;
+}

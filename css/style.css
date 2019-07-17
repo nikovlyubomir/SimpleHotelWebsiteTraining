@@ -5,16 +5,16 @@ body {
     height: 100%;
 }
 
-#navbar {
-    position: fixed;
-    top: 0;
-    right: 0;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    z-index: 1;
+
+/*Navbar*/
+
+#navbar .container {
+    height: 5.2rem;
+    align-items: center;
     background-color: black;
     color: white;
+    display: flex;
+    justify-content: space-between;
 }
 
 #navbar .logo {
@@ -22,26 +22,27 @@ body {
     padding-left: 19rem;
 }
 
-#navbar ul {
+#navbar .container ul {
     display: flex;
+    margin: 20px;
     align-items: center;
     list-style: none;
     padding-right: 19rem;
 }
 
-#navbar ul li a {
+#navbar .container ul a {
     font-size: 1.2rem;
     padding: 2rem;
     color: white;
     text-decoration: none;
 }
 
-#navbar li:first-child a {
+#navbar .container li:first-child a {
     background-color: silver;
     color: orange;
 }
 
-#navbar ul li a:hover {
+#navbar .container ul li a:hover {
     background-color: silver;
     color: orange;
 }
