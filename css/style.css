@@ -154,6 +154,59 @@ body {
 }
 
 
+/*Benefits*/
+
+#benefits {
+    padding-top: 600;
+}
+
+#benefits .items {
+    display: flex;
+    justify-content: center;
+    height: 35vh;
+}
+
+#benefits .items div {
+    flex: 1;
+}
+
+#benefits .items div h2 {
+    font-size: 1.6rem;
+}
+
+#benefits .items div i {
+    font-size: 1.6rem;
+}
+
+#benefits .items div p {
+    font-size: 1.3rem;
+}
+
+#benefits .items .location {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+}
+
+#benefits .items .meals {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: orange;
+}
+
+#benefits .items .fitness {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+}
+
+
 /*Utility class*/
 
 .text-primary {
