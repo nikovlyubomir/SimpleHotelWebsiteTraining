@@ -3,6 +3,8 @@ body {
     padding: 0;
     margin: 0;
     height: 100%;
+    font-family: 'Cinzel', serif;
+    font-family: 'Amiri', serif;
 }
 
 
@@ -39,12 +41,12 @@ body {
 
 #navbar .container li:first-child a {
     background-color: silver;
-    color: orange;
+    color: #ff9100;
 }
 
 #navbar .container ul li a:hover {
     background-color: silver;
-    color: orange;
+    color: #ff9100;
 }
 
 
@@ -91,7 +93,7 @@ body {
 }
 
 #header li a:hover {
-    background-color: orange;
+    background-color: #ff9100;
     color: white;
 }
 
@@ -194,7 +196,7 @@ body {
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    background-color: orange;
+    background-color: #ffab00;
 }
 
 #benefits .items .fitness {
@@ -228,5 +230,5 @@ body {
 /*Utility class*/
 
 .text-primary {
-    color: orange;
+    color: #ffab00;
 }
