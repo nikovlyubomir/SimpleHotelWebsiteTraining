@@ -1,0 +1,48 @@
+#navbar .container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    height: 15rem;
+}
+
+#navbar .logo {
+    padding-right: 300px;
+}
+
+#navbar .container ul {
+    display: flex;
+    flex-direction: column;
+    padding-left: 300px;
+}
+
+#navbar .container ul a {
+    font-size: 1rem;
+    padding: 0.2rem 8rem;
+}
+
+#header h1 {
+    font-size: 2rem;
+    margin: 0 5px;
+}
+
+#header p {
+    font-size: 1rem;
+}
+
+#header .container {
+    padding-top: 50px;
+}
+
+#header li a {
+    font-size: 0.8rem;
+}
+
+#header {
+    height: 60vh;
+}
+
+#header ul {
+    padding-right: 30px;
+    padding-top: 25px
+}
