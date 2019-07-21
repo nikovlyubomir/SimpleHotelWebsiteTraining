@@ -112,7 +112,7 @@
     color: white;
     background: #ff9100;
     margin: 1rem 18rem;
-    padding: 1.5rem 5rem;
+    padding: -2rem 5rem;
     border-radius: 10px;
 }
 
@@ -120,6 +120,10 @@
     width: 100px;
     border-radius: 50px;
     margin-right: 1rem;
+}
+
+#guests .containerG h1 {
+    font-size: 3rem;
 }
 
 #guests .containerG .guest1 .img1 img {

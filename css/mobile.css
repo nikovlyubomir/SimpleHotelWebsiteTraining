@@ -1,3 +1,5 @@
+/*Navbar*/
+
 #navbar .container {
     display: flex;
     align-items: center;
@@ -20,6 +22,9 @@
     font-size: 1rem;
     padding: 0.2rem 8rem;
 }
+
+
+/*Header*/
 
 #header h1 {
     font-size: 2rem;
@@ -48,7 +53,7 @@
 }
 
 
-/**/
+/*History*/
 
 #history {
     padding-top: 380px;
@@ -113,3 +118,6 @@
 #main-footer {
     margin-top: 16rem;
 }
+
+
+/*ABOUT*/
