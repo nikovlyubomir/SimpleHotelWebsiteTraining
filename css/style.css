@@ -114,14 +114,6 @@ body {
 }
 
 #history .items .container {
-    background-color: blue;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-}
-
-#history .items .container {
     background-color: black;
     display: flex;
     flex-direction: column;

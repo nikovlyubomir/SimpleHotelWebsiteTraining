@@ -46,3 +46,49 @@
     padding-right: 30px;
     padding-top: 25px
 }
+
+
+/**/
+
+#history {
+    padding-top: 380px;
+}
+
+#history .items .image {
+    background: none;
+    flex: 0;
+}
+
+#history .items {
+    display: absolute;
+    flex: 1;
+}
+
+#history .items .container {
+    background-color: black;
+    display: flex;
+    display: inline;
+    flex-direction: row;
+    padding-bottom: 60px;
+}
+
+#history .items .container p {
+    font-size: 1rem;
+}
+
+#history .items .container h1 {
+    font-size: 2rem;
+}
+
+#history .items .container ul li a {
+    font-size: 1.3rem;
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    padding: 1rem;
+}
+
+#history .items .container ul {
+    padding-right: 35px;
+    padding-top: 30px;
+}
