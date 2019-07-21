@@ -92,3 +92,24 @@
     padding-right: 35px;
     padding-top: 30px;
 }
+
+#benefits {
+    padding-top: 253px;
+}
+
+#benefits .items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 35vh;
+}
+
+#benefits .items .location,
+.meals,
+.fitness {
+    padding-top: 20px;
+}
+
+#main-footer {
+    margin-top: 16rem;
+}
